@@ -2,7 +2,13 @@
 
 
 
+In-Memory Sorting:
 
+In-memory sorting is a technique in which the whole dataset to be sorted fits inside the main memory (RAM) of the computer. Because the data is wholly stored in RAM, the sorting algorithms can immediately access it, resulting in speedier sort processes. Quick Sort, Merge Sort, Bubble Sort, and Insertion Sort are examples of in-memory sorting algorithms. These algorithms make full use of RAM's random-access capabilities, allowing them to swap and compare items in real time. In-memory sorting is often appropriate for relatively small datasets when performance is crucial.
+
+External Sorting: 
+
+When the dataset is too vast to fit into the computer's main memory, external sorting is used. In this case, the data is often stored on an external storage device, such as a hard drive. Multiple rounds of reading and writing between main memory and external storage are required throughout the sorting process. One popular method for external sorting is to separate a huge dataset into smaller chunks that fit into main memory, sort each chunk in memory, and then fuse the sorted chunks back together. External sorting is often slower than in-memory sorting since disk I/O operations are substantially slower. External Merge Sort algorithms are particularly intended for this type of operation.
 
 Detailed explanation of how to run code
 
